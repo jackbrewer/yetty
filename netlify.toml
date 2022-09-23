@@ -2,3 +2,15 @@
   publish = "dist"
   environment = { NODE_VERSION = "14.16.0" }
   command = "npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+  [plugins.inputs.thresholds]
+    performance = 0.9
+
+  [[plugins.inputs.audits]]
+    path = ""
+
+  [[plugins.inputs.audits]]
+    path = "contact"
