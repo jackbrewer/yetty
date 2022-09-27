@@ -14,3 +14,6 @@
 
   [[plugins.inputs.audits]]
     path = "contact"
+
+[plugins.inputs.settings]
+  formFactor = 'desktop'
