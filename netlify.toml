@@ -10,7 +10,7 @@
     performance = 0.9
 
   [[plugins.inputs.audits]]
-    path = ""
+    path = "contact"
 
   [[plugins.inputs.audits]]
-    path = "contact"
+    path = "404"
