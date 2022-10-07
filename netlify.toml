@@ -12,6 +12,6 @@
   [[plugins.inputs.audits]]
     path = ""
 
-  [[plugins.inputs.filePath]]
+  [[plugins.inputs.audits]]
     path = ""
     fileName = "/posts"
